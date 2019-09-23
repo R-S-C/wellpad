@@ -1,0 +1,17 @@
+Package: wellpad
+Type: Package
+Title: Collate Well Locations Using Surface and Bottomhole Lat/Long
+Version: 0.1.0
+Authors@R: c(
+    person("Adam", "Cagle", , "adam_cagle@ryderscott.com", c("aut", "cre")),
+    person("Ryder Scott Company, LP.", role = c("cph", "fnd"))
+    )
+Maintainer: adamcagle <adam_cagle@ryderscott.com>
+Description: Collates well locations within a PAD and returns location data along with estimated 
+    well spacing and orientation.
+Depends: R (>= 3.5.1), geosphere, leaflet, plyr, sp
+License: GPL-2
+BugReports: https://github.com/R-S-C/wellpad/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
