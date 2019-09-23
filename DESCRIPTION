@@ -9,7 +9,7 @@ Authors@R: c(
 Maintainer: adamcagle <adam_cagle@ryderscott.com>
 Description: Collates well locations within a PAD and returns location data along with estimated 
     well spacing and orientation.
-Depends: R (>= 3.5.1), geosphere, leaflet, plyr, sp
+Depends: R (>= 3.5.1), geosphere, leaflet, plyr, sp, rgdal
 License: GPL-2
 BugReports: https://github.com/R-S-C/wellpad/issues
 Encoding: UTF-8
